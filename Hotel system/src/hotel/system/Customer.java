@@ -1,8 +1,16 @@
 package hotel.system;
+
+/*
+*
+*author: tevin
+ */
 public class Customer {
+
     private String name;
     private int custNo;
-    Customer(){}
+
+    Customer() {
+    }
 
     /**
      * @return the name
@@ -31,5 +39,5 @@ public class Customer {
     public void setCustNo(int custNo) {
         this.custNo = custNo;
     }
-    
+
 }
