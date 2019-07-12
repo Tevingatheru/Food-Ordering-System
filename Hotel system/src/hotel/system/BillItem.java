@@ -2,24 +2,30 @@ package hotel.system;
 
 import java.util.Scanner;
 
-public class BillItem extends HotelSystem{
-    
+/*
+*
+*author: tevin
+ */
+public class BillItem extends HotelSystem {
+
     private int sum;
-    private int  order;
-    
-    BillItem(){
-     sum=0;   
+    private int order;
+
+    BillItem() {
+        sum = 0;
     }
-    public void makeItem(int qty, int unit){
-        sum=unit*qty;
+
+    public void makeItem(int qty, int unit) {
+        sum = unit * qty;
     }
+
     /**
      * @param sum the sum to set
      */
-    public void setSum(int unit,int qty) {
-       
-        this.sum = unit*qty;
-        
+    public void setSum(int unit, int qty) {
+
+        this.sum = unit * qty;
+
     }
 
     /**
@@ -28,6 +34,7 @@ public class BillItem extends HotelSystem{
     public int getOrder() {
         return order;
     }
+
     /**
      * @return the sum
      */

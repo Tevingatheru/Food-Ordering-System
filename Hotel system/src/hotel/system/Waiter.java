@@ -1,8 +1,16 @@
 package hotel.system;
+
+/*
+*
+*author: tevin
+ */
 public class Waiter {
+
     private String name;
     private int staffNo;
-    Waiter(){}
+
+    Waiter() {
+    }
 
     /**
      * @return the name
@@ -31,5 +39,5 @@ public class Waiter {
     public void setStaffNo(int staffNo) {
         this.staffNo = staffNo;
     }
-    
+
 }
